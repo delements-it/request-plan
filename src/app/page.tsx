@@ -5,18 +5,18 @@ export default function Home() {
   return (
     <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
       <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
+        {/* <Image
           className="dark:invert"
           src="https://rootrotation.com/cdn/shop/files/AVFDGXFDC_HJM.png?v=1678361915&width=760"
           alt="Next.js logo"
           width={180}
           height={1}
           priority
-        />
+        /> */}
 
         <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">lorem lorem lorem lorem</li>
-          <li>lorem lorem</li>
+          {/* <li className="mb-2">Root Rotation</li> */}
+          {/* <li>lorem lorem</li> */}
         </ol>
 
         <div className="flex gap-4 items-center flex-col sm:flex-row">

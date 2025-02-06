@@ -30,6 +30,14 @@ export default function Home() {
           >
             Go to WAREHOUSE IMPORT - EXPORT PLAN
           </Link>
+          <Link
+            target="_blank"
+            rel="noopener noreferrer"
+            className="rounded-full border border-solid border-black text-black hover:bg-black hover:text-white transition-colors flex items-center justify-center hover:border-black text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
+            href="https://forms.gle/RMuQrD5NUfEKr8HDA"
+          >
+            Go to SKU Creation Request Form
+          </Link>
         </div>
       </main>
     </div>

@@ -2,7 +2,7 @@ import { redirect } from 'next/navigation';
 
 export default function DynamicRedirect({ params }: { params: { slug: string } }) {
   const destinations: { [key: string]: string } = {
-    dynamicz: 'https://zingnews.vn',
+    dynamicz: 'https://tuoitre.vn',
   };
 
   const destination = destinations[params.slug];

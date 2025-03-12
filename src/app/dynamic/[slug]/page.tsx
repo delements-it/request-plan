@@ -2,13 +2,13 @@ import { redirect } from 'next/navigation';
 
 export default function DynamicRedirect({ params }: { params: { slug: string } }) {
   const destinations: { [key: string]: string } = {
-    dynamicz: 'https://tuoitre.vn',
+    nfc_tag_01: 'https://ar.rootrotation.com/p/Project_121_mbxz8g8rax',
+    dynamic1: 'https://voz.vn',
   };
 
   const destination = destinations[params.slug];
 
   if (!destination) {
-    // Trả về trang 404 nếu không tìm thấy URL đích
     return new Response('Not Found', { status: 404 });
   }
 

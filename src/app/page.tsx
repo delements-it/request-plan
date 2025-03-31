@@ -7,8 +7,8 @@ export default function Home() {
         <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
           <img
             src="\assets\images\rr.png"
-            alt="Error! Page not found"
-            title="Error! Page not found"
+            alt="RootRotation"
+            title="RootRotation"
             className=" max-width: 100%; max-height: 60vh; margin: 0 auto;"
           ></img>
         </ol>
@@ -37,6 +37,14 @@ export default function Home() {
             href="https://forms.gle/RMuQrD5NUfEKr8HDA"
           >
             Go to SKU Creation Request Form
+          </Link>
+          <Link
+            target="_blank"
+            rel="noopener noreferrer"
+            className="rounded-full border border-solid border-black text-black hover:bg-black hover:text-white transition-colors flex items-center justify-center hover:border-black text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
+            href="https://forms.gle/8aF6NJyrXkLErfvK9"
+          >
+            Go to Production Request Form
           </Link>
         </div>
       </main>

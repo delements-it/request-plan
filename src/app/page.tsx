@@ -9,42 +9,46 @@ export default function Home() {
             src="\assets\images\rr.png"
             alt="RootRotation"
             title="RootRotation"
-            className=" max-width: 100%; max-height: 60vh; margin: 0 auto;"
+            className="max-width: 100%; max-height: 60vh; margin: 0 auto;"
           ></img>
         </ol>
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
+        <div className="flex gap-4 items-center flex-col sm:flex-column">
           <Link
             target="_blank"
             rel="noopener noreferrer"
-            className="rounded-full border border-solid border-black text-black hover:bg-black hover:text-white transition-colors flex items-center justify-center hover:border-black text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44 text-center"
+            className="rounded-full border-2 border-gray-300 text-black flex items-center justify-center text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44 text-center group relative overflow-hidden transition-all duration-300 hover:rounded-[25px] hover:border-transparent"
             href="https://docs.google.com/forms/d/e/1FAIpQLSfU0Fb1oO-SlkTbcQi4nVFbYtFuOFkViJEAaLLkFvu8TwpTqg/viewform"
           >
-            Go to Purchase Plan
+            <span className="relative z-10">Go To Purchase Plan</span>
+            <span className="absolute inset-0 border-2 rounded-full border-transparent group-hover:rounded-[25px] group-hover:bg-gradient-to-r group-hover:from-[#E9BB56] group-hover:via-[#C95B4F] group-hover:via-[#398EBB] group-hover:to-[#257C61] group-hover:bg-[length:200%_100%] group-hover:animate-border-slide pointer-events-none" style={{ WebkitMask: 'linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0)', WebkitMaskComposite: 'xor', maskComposite: 'exclude' }}></span>
           </Link>
           <Link
             target="_blank"
             rel="noopener noreferrer"
-            className="rounded-full border border-solid border-black text-black hover:bg-black hover:text-white transition-colors flex items-center justify-center hover:border-black text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
+            className="rounded-full border-2 border-gray-300 text-black flex items-center justify-center text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44 text-center group relative overflow-hidden transition-all duration-300 hover:rounded-[25px] hover:border-transparent"
             href="https://docs.google.com/forms/d/e/1FAIpQLSferf3xJxB0X8A8gGuF-ea390UX6u7NVOIlUlW0oxE6Iau-pA/viewform"
           >
-            Go to WAREHOUSE IMPORT - EXPORT PLAN
+            <span className="relative z-10">Go To WAREHOUSE IMPORT - EXPORT PLAN</span>
+            <span className="absolute inset-0 border-2 rounded-full border-transparent group-hover:rounded-[25px] group-hover:bg-gradient-to-r group-hover:from-[#E9BB56] group-hover:via-[#C95B4F] group-hover:via-[#398EBB] group-hover:to-[#257C61] group-hover:bg-[length:200%_100%] group-hover:animate-border-slide pointer-events-none" style={{ WebkitMask: 'linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0)', WebkitMaskComposite: 'xor', maskComposite: 'exclude' }}></span>
           </Link>
           <Link
             target="_blank"
             rel="noopener noreferrer"
-            className="rounded-full border border-solid border-black text-black hover:bg-black hover:text-white transition-colors flex items-center justify-center hover:border-black text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
+            className="rounded-full border-2 border-gray-300 text-black flex items-center justify-center text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44 text-center group relative overflow-hidden transition-all duration-300 hover:rounded-[25px] hover:border-transparent"
             href="https://forms.gle/RMuQrD5NUfEKr8HDA"
           >
-            Go to SKU Creation Request Form
+            <span className="relative z-10">Go To SKU Creation Request Form</span>
+            <span className="absolute inset-0 border-2 rounded-full border-transparent group-hover:rounded-[25px] group-hover:bg-gradient-to-r group-hover:from-[#E9BB56] group-hover:via-[#C95B4F] group-hover:via-[#398EBB] group-hover:to-[#257C61] group-hover:bg-[length:200%_100%] group-hover:animate-border-slide pointer-events-none" style={{ WebkitMask: 'linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0)', WebkitMaskComposite: 'xor', maskComposite: 'exclude' }}></span>
           </Link>
           <Link
             target="_blank"
             rel="noopener noreferrer"
-            className="rounded-full border border-solid border-black text-black hover:bg-black hover:text-white transition-colors flex items-center justify-center hover:border-black text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
+            className="rounded-full border-2 border-gray-300 text-black flex items-center justify-center text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44 text-center group relative overflow-hidden transition-all duration-300 hover:rounded-[25px] hover:border-transparent"
             href="https://forms.gle/8aF6NJyrXkLErfvK9"
           >
-            Go to Production Request Form
+            <span className="relative z-10">Go To Production Request Form</span>
+            <span className="absolute inset-0 border-2 rounded-full border-transparent group-hover:rounded-[25px] group-hover:bg-gradient-to-r group-hover:from-[#E9BB56] group-hover:via-[#C95B4F] group-hover:via-[#398EBB] group-hover:to-[#257C61] group-hover:bg-[length:200%_100%] group-hover:animate-border-slide pointer-events-none" style={{ WebkitMask: 'linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0)', WebkitMaskComposite: 'xor', maskComposite: 'exclude' }}></span>
           </Link>
         </div>
       </main>

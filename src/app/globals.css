@@ -35,12 +35,24 @@ body {
   }
 }
 
-.animate-slide {
-  animation: slide 3s linear infinite;
-  opacity: 0;
-  transition: opacity 0.3s;
+@keyframes text-slide {
+  0% {
+    background-position: 0% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
 }
 
-.group:hover .animate-slide {
-  opacity: 1;
+@keyframes border-rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-border-rotate {
+  animation: border-rotate 0.1s linear infinite;
 }

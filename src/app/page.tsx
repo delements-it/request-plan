@@ -59,6 +59,15 @@ export default function Home() {
             <span className="relative z-10">Payment request</span>
             <span className="absolute inset-0 border-2 rounded-full border-transparent group-hover:rounded-[25px] group-hover:bg-gradient-to-r group-hover:from-[#E9BB56] group-hover:via-[#C95B4F] group-hover:via-[#398EBB] group-hover:to-[#257C61] group-hover:bg-[length:200%_100%] group-hover:animate-border-slide pointer-events-none" style={{ WebkitMask: 'linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0)', WebkitMaskComposite: 'xor', maskComposite: 'exclude' }}></span>
           </Link>
+          <Link
+            target="_blank"
+            rel="noopener noreferrer"
+            className="rounded-full border-2 border-gray-300 text-black flex items-center justify-center text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44 text-center group relative overflow-hidden transition-all duration-300 hover:rounded-[25px] hover:border-transparent"
+            href="https://docs.google.com/forms/d/e/1FAIpQLScBG7iVb480If4wkL0O1E7ZfI7PxfDCkbsKdnCBtRKAlqvpgw/viewform"
+          >
+            <span className="relative z-10">Production Request</span>
+            <span className="absolute inset-0 border-2 rounded-full border-transparent group-hover:rounded-[25px] group-hover:bg-gradient-to-r group-hover:from-[#E9BB56] group-hover:via-[#C95B4F] group-hover:via-[#398EBB] group-hover:to-[#257C61] group-hover:bg-[length:200%_100%] group-hover:animate-border-slide pointer-events-none" style={{ WebkitMask: 'linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0)', WebkitMaskComposite: 'xor', maskComposite: 'exclude' }}></span>
+          </Link>
         </div>
       </main>
     </div>
